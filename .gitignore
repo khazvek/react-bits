@@ -28,3 +28,4 @@ public/ts/tailwind
 *.njsproj
 *.sln
 *.sw?
+.env
