@@ -46,7 +46,7 @@ const BackgroundContent = ({
                 boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
               }}
             >
-              <img src={logo} alt="React Bits Logo" style={{ height: '24px', borderRadius: '50px' }} />
+              <img src={logo} alt="KauryUI Logo" style={{ height: '24px', borderRadius: '50px' }} />
 
               <Box display={{ base: "flex", md: "none" }} alignItems="center" color="white">
                 <TbMenu size={20} />

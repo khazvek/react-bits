@@ -50,8 +50,8 @@ const Header = () => {
       <Select.Control>
         <Select.Trigger
           fontSize="12px"
-          bg="#060010"
-          border="1px solid #392e4e"
+          bg="#000000"
+          border="1px solid #555555"
           rounded="full"
           h={10}
           fontWeight={600}
@@ -69,8 +69,8 @@ const Header = () => {
       <Portal>
         <Select.Positioner>
           <Select.Content
-            bg="#060010"
-            border="1px solid #392e4e"
+            bg="#000000"
+            border="1px solid #555555"
             borderRadius="25px"
             w="80px"
             px={2}
@@ -85,7 +85,7 @@ const Header = () => {
                 px={3}
                 py={2}
                 cursor="pointer"
-                _highlighted={{ bg: "#271E37" }}
+                _highlighted={{ bg: "#333333" }}
               >
                 {lang}
                 <Select.ItemIndicator />
@@ -121,8 +121,8 @@ const Header = () => {
               pr={2}
               pl={3}
               rounded="full"
-              bg="#060010"
-              border="1px solid #392e4e"
+              bg="#000000"
+              border="1px solid #555555"
               fontWeight={600}
               align="center"
               gap={1}
@@ -132,7 +132,7 @@ const Header = () => {
               _hover={{ transform: "scale(0.98)" }}
               onClick={toggleSearch}
             >
-              <Icon as={FiSearch} boxSize={4} color="#392e4e" />
+              <Icon as={FiSearch} boxSize={4} color="#555555" />
               <Text mr={8} color="#a6a6a6">Search Docs</Text>
               {os === "macOS" ? <Kbd fontSize="10px" px={2} borderRadius="50px"><Icon as={FiCommand} boxSize={2} mr={1} /> K</Kbd> : <Kbd fontSize="10px" px={2} borderRadius="50px">CTRL K</Kbd>}
             </Flex>

@@ -116,7 +116,7 @@ const ScrollRevealDemo = () => {
     <TabbedLayout>
       <PreviewTab>
         <Box className="demo-container" style={{ height: '500px', maxHeight: '500px' }} overflowY='scroll' overflowX='hidden' ref={containerRef} position='relative'>
-          <Text textAlign="center" color='#271E37' fontSize="clamp(4rem, 6vw, 4rem)" fontWeight={900} position="absolute" top='50%' transform='translateY(-50%)'>Scroll Down</Text>
+          <Text textAlign="center" color='#333333' fontSize="clamp(4rem, 6vw, 4rem)" fontWeight={900} position="absolute" top='50%' transform='translateY(-50%)'>Scroll Down</Text>
           <Box position="relative" pt={1600} pb={600} px='3rem'>
             <ScrollReveal
               key={key}

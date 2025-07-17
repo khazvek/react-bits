@@ -16,7 +16,7 @@
   font-weight: 400;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #000000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -52,7 +52,7 @@ input[type="color"]::-moz-color-swatch {
 }
 
 .chakra-select:focus-visible {
-  border-color: #5227FF !important;
+  border-color: #FFFFFF !important;
   box-shadow: 0 0 0 1px rgba(0, 216, 255, 0.5) !important;
 }
 
@@ -74,6 +74,6 @@ body {
 }
 
 .back-to-top {
-  background: #060010 !important;
-  border: 1px solid #392e4e;
+  background: #000000 !important;
+  border: 1px solid #555555;
 }

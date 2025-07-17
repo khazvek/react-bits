@@ -41,7 +41,7 @@ const CliInstallation = ({
         Full CLI Setup
       </Text>
       <Text className="jsrepo-info" mb={4} mt={4} color="#a1a1aa" fontSize="sm">
-        React Bits uses{" "}
+        KauryUI uses{" "}
         <a href="https://jsrepo.dev/" target="_blank" rel="noreferrer">
           jsrepo
         </a>{" "}
@@ -51,8 +51,8 @@ const CliInstallation = ({
       <Accordion.Root type="single" collapsible defaultValue="setup">
         <Accordion.Item
           value="setup"
-          bg="#060010"
-          border="1px solid #392e4e"
+          bg="#000000"
+          border="1px solid #555555"
           borderRadius="20px"
         >
           <Accordion.ItemTrigger pb={4} px={6}>
@@ -77,12 +77,12 @@ const CliInstallation = ({
                 <Text className="demo-extra-info">{label}</Text>
                 <CodeHighlighter
                   language="bash"
-                  codeString={`npx jsrepo init https://reactbits.dev/${path}`}
+                  codeString={`npx jsrepo init https://kauryui.dev/${path}`}
                 />
               </Box>
             ))}
 
-            <Separator my={8} borderWidth='1px' borderColor="#392e4e" />
+            <Separator my={8} borderWidth='1px' borderColor="#555555" />
 
             <Text className="demo-extra-info">
               2. Browse &amp; add components from the list

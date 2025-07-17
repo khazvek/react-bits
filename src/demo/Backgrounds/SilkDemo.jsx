@@ -17,7 +17,7 @@ import Silk from '../../content/Backgrounds/Silk/Silk';
 const SilkDemo = () => {
   const [speed, setSpeed] = useState(5);
   const [scale, setScale] = useState(1);
-  const [color, setColor] = useState("#5227FF");
+  const [color, setColor] = useState("#FFFFFF");
   const [noiseIntensity, setNoiseIntensity] = useState(1.5);
   const [rotation, setRotation] = useState(0);
 

@@ -70,9 +70,9 @@ const AnimatedContentDemo = () => {
               color="#fff"
               h={100}
               borderRadius="25px"
-              border="1px solid #392e4e"
+              border="1px solid #555555"
               w={200}
-              bg={"#060010"}
+              bg={"#000000"}
             >
               Animate Me
             </Flex>
@@ -85,8 +85,8 @@ const AnimatedContentDemo = () => {
               fontSize="xs"
               bg="#170D27"
               borderRadius="10px"
-              border="1px solid #271E37"
-              _hover={{ bg: "#271E37" }}
+              border="1px solid #333333"
+              _hover={{ bg: "#333333" }}
               color="#fff"
               h={8}
               onClick={() => {
@@ -100,8 +100,8 @@ const AnimatedContentDemo = () => {
               fontSize="xs"
               bg="#170D27"
               borderRadius="10px"
-              border="1px solid #271E37"
-              _hover={{ bg: "#271E37" }}
+              border="1px solid #333333"
+              _hover={{ bg: "#333333" }}
               color="#fff"
               h={8}
               onClick={() => {

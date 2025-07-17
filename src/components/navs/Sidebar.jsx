@@ -36,7 +36,7 @@ const HOVER_TIMEOUT_DELAY = 150;
 const ICON_BUTTON_STYLES = {
   rounded: "10px",
   border: "1px solid #ffffff1c",
-  bg: "#060010",
+  bg: "#000000",
 };
 const ARROW_ICON_PROPS = {
   boxSize: 4,
@@ -200,7 +200,7 @@ const Sidebar = () => {
         left={0}
         zIndex="overlay"
         w="100%"
-        bg="#060010"
+        bg="#000000"
         p="1em"
       >
         <Flex
@@ -209,7 +209,7 @@ const Sidebar = () => {
           gap="1em"
         >
           <Link to="/">
-            <Image src={Logo} h="32px" alt="React Bits logo" />
+            <Image src={Logo} h="32px" alt="KauryUI logo" />
           </Link>
 
           <Flex gap={2}>
@@ -247,7 +247,7 @@ const Sidebar = () => {
             "&[data-state='open']": { transform: "translateX(0)" },
           }}
           maxW="100vw">
-          <Drawer.Content bg="#060010">
+          <Drawer.Content bg="#000000">
             <Drawer.Header
               h="72px"
               py={2}

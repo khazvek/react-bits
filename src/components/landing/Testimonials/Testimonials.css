@@ -87,12 +87,12 @@
 
 .testimonials-marquee-container::before {
   left: 0;
-  background: linear-gradient(to right, #060010, transparent);
+  background: linear-gradient(to right, #000000, transparent);
 }
 
 .testimonials-marquee-container::after {
   right: 0;
-  background: linear-gradient(to left, #060010, transparent);
+  background: linear-gradient(to left, #000000, transparent);
 }
 
 .testimonial-row {
@@ -150,7 +150,7 @@
   flex-shrink: 0;
   width: 380px;
   min-height: 120px;
-  background: #060010;
+  background: #000000;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 16px;
   padding: 24px;

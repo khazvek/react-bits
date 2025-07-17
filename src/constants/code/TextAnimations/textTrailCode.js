@@ -16,7 +16,7 @@ export const textTrail = {
 
 // Usage with all props
 <TextTrail 
-  text="React Bits"
+  text="KauryUI"
   fontFamily="Figtree"
   fontWeight="900"
   noiseFactor={1.2}

@@ -54,7 +54,7 @@ const CodeHighlighter = ({ language, codeString, showLineNumbers = true, maxLine
             left={0}
             right={0}
             height="60%"
-            background="linear-gradient(to bottom, transparent, #060010)"
+            background="linear-gradient(to bottom, transparent, #000000)"
           />
         )}
 
@@ -66,8 +66,8 @@ const CodeHighlighter = ({ language, codeString, showLineNumbers = true, maxLine
             rounded="xl"
             height='2.5rem'
             fontWeight={500}
-            backgroundColor="#060010"
-            border="1px solid #392e4e"
+            backgroundColor="#000000"
+            border="1px solid #555555"
             color="white"
             _hover={{ backgroundColor: '#111' }}
             _active={{ backgroundColor: '#111' }}
@@ -86,11 +86,11 @@ const CodeHighlighter = ({ language, codeString, showLineNumbers = true, maxLine
           right=".6em"
           borderRadius="8px"
           fontWeight={500}
-          backgroundColor={copied ? '#6CC75D' : '#060010'}
-          border="1px solid #392e4e"
+          backgroundColor={copied ? '#6CC75D' : '#000000'}
+          border="1px solid #555555"
           color={copied ? 'black' : 'white'}
-          _hover={{ backgroundColor: copied ? '#6CC75D' : '#271E37' }}
-          _active={{ backgroundColor: '#5227FF' }}
+          _hover={{ backgroundColor: copied ? '#6CC75D' : '#333333' }}
+          _active={{ backgroundColor: '#FFFFFF' }}
           transition="background-color 0.3s ease"
           onClick={handleCopy}
         >

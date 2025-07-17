@@ -21,7 +21,7 @@ export const stepper = {
   nextButtonText="Next"
 >
   <Step>
-    <h2>Welcome to the React Bits stepper!</h2>
+    <h2>Welcome to the KauryUI stepper!</h2>
     <p>Check out the next step!</p>
   </Step>
   <Step>

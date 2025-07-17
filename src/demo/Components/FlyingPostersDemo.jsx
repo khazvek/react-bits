@@ -89,7 +89,7 @@ const FlyingPostersDemo = () => {
             cameraFov={cameraFov}
             cameraZ={cameraZ}
           />
-          <Text color="#271E37" zIndex={0} fontSize="clamp(2rem, 6vw, 6rem)" fontWeight={900} position="absolute">
+          <Text color="#333333" zIndex={0} fontSize="clamp(2rem, 6vw, 6rem)" fontWeight={900} position="absolute">
             Scroll.
           </Text>
         </Box>

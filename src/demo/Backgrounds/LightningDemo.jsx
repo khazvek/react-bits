@@ -71,7 +71,7 @@ const LightningDemo = () => {
           {/* For Demo Purposes Only */}
           <BackgroundContent
             pillText="New Background"
-            headline="The power of nature's fury, with React Bits!"
+            headline="The power of nature's fury, with KauryUI!"
           />
         </Box>
 

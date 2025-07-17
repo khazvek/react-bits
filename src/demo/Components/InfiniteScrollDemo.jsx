@@ -104,7 +104,7 @@ const InfiniteScrollDemo = () => {
             position: 'realtive'
           }}
         >
-          <p style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)', zIndex: -1, fontSize: '3rem', fontWeight: 900, color: '#271E37' }}>Balls!</p>
+          <p style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)', zIndex: -1, fontSize: '3rem', fontWeight: 900, color: '#333333' }}>Balls!</p>
           <Ballpit count={50} followCursor={false} />
         </div>
       ),
@@ -137,7 +137,7 @@ const InfiniteScrollDemo = () => {
           p={0}
           overflow="hidden"
           display="flex"
-          bg="#060010"
+          bg="#000000"
           justifyContent="center"
           alignItems="center"
         >
@@ -168,7 +168,7 @@ const InfiniteScrollDemo = () => {
             />
           )}
 
-          <Separator my={4} borderColor="#271E37" />
+          <Separator my={4} borderColor="#333333" />
 
           <PreviewSwitch isChecked={autoplay} title="Autoplay" onChange={() => setAutoplay(!autoplay)} />
 

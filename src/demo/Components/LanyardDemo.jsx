@@ -51,9 +51,9 @@ const LanyardDemo = () => {
   return (
     <TabbedLayout>
       <PreviewTab>
-        <Box position="relative" className="demo-container" h={600} p={0} overflow="hidden" bg="linear-gradient(180deg, #271E37 0%, #060010 100%)">
+        <Box position="relative" className="demo-container" h={600} p={0} overflow="hidden" bg="linear-gradient(180deg, #333333 0%, #000000 100%)">
           <RefreshButton onClick={forceRerender} />
-          <Text position="absolute" fontSize="clamp(2rem, 6vw, 6rem)" fontWeight={900} color="#271E37">Drag It!</Text>
+          <Text position="absolute" fontSize="clamp(2rem, 6vw, 6rem)" fontWeight={900} color="#333333">Drag It!</Text>
           <Lanyard key={key} position={[0, 0, cameraDistance]} gravity={stopGravity ? [0, 0, 0] : [0, -40, 0]} />
         </Box>
 

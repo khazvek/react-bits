@@ -142,7 +142,7 @@ const CardSwapDemo = () => {
               pauseOnHover={pauseOnHover}
             >
               <Card customClass="one">
-                <Box borderBottom="1px solid #fff" bg="linear-gradient(to top, #271E37, #060606)">
+                <Box borderBottom="1px solid #fff" bg="linear-gradient(to top, #333333, #060606)">
                   <Text m={2}>
                     <Icon as={FaCircle} mr={2} />
                     Smooth
@@ -156,7 +156,7 @@ const CardSwapDemo = () => {
                 </Box>
               </Card>
               <Card customClass="two">
-                <Box borderBottom="1px solid #fff" bg="linear-gradient(to top, #271E37, #060606)">
+                <Box borderBottom="1px solid #fff" bg="linear-gradient(to top, #333333, #060606)">
                   <Text m={2}>
                     <Icon as={FaCode} mr={2} />
                     Reliable
@@ -170,7 +170,7 @@ const CardSwapDemo = () => {
                 </Box>
               </Card>
               <Card customClass="three">
-                <Box borderBottom="1px solid #fff" bg="linear-gradient(to top, #271E37, #060606)">
+                <Box borderBottom="1px solid #fff" bg="linear-gradient(to top, #333333, #060606)">
                   <Text m={2}>
                     <Icon as={FaSliders} mr={2} />
                     Customizable
@@ -249,8 +249,8 @@ const CardSwapDemo = () => {
             fontSize="xs"
             bg="#170D27"
             borderRadius="10px"
-            border="1px solid #271E37"
-            _hover={{ bg: "#271E37" }}
+            border="1px solid #333333"
+            _hover={{ bg: "#333333" }}
             color="#fff"
             h={8}
             onClick={() => {

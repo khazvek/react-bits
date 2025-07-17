@@ -17,7 +17,7 @@ interface RibbonsProps {
 }
 
 const Ribbons: React.FC<RibbonsProps> = ({
-  colors = ['#ff9346', '#7cff67', '#ffee51', '#5227FF'],
+  colors = ['#ff9346', '#7cff67', '#ffee51', '#FFFFFF'],
   baseSpring = 0.03,
   baseFriction = 0.9,
   baseThickness = 30,

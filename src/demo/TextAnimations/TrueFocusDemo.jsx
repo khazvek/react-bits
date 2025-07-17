@@ -27,7 +27,7 @@ const TrueFocusDemo = () => {
   const [blurAmount, setBlurAmount] = useState(5);
   const [animationDuration, setAnimationDuration] = useState(0.5);
   const [pauseBetweenAnimations, setPauseBetweenAnimations] = useState(1);
-  const [borderColor, setBorderColor] = useState("#5227FF");
+  const [borderColor, setBorderColor] = useState("#FFFFFF");
 
   const config = {
     sentence: 'True Focus',

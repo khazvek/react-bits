@@ -294,7 +294,7 @@ export default function PlasmaWaveV2({
           left: 0,
           right: 0,
           height: 200,
-          background: 'linear-gradient(to top, #060010, transparent)',
+          background: 'linear-gradient(to top, #000000, transparent)',
           pointerEvents: 'none',
           zIndex: 1,
         }}

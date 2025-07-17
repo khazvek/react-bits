@@ -15,7 +15,7 @@ export const fallingText = {
   usage: `import FallingText from './FallingText';
   
 <FallingText
-  text={\`React Bits is a library of animated and interactive React components designed to streamline UI development and simplify your workflow.\`}
+  text={\`KauryUI is a library of animated and interactive React components designed to streamline UI development and simplify your workflow.\`}
   highlightWords={["React", "Bits", "animated", "components", "simplify"]}
   highlightClass="highlighted"
   trigger="hover"

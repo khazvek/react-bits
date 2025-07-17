@@ -138,7 +138,7 @@ const ScrollStackDemo = () => {
           <RefreshButton onClick={handleRefresh} />
           <Text
             textAlign="center"
-            color='#271E37'
+            color='#333333'
             fontSize="clamp(2rem, 4vw, 3rem)"
             fontWeight={900}
             position="absolute"
@@ -195,7 +195,7 @@ const ScrollStackDemo = () => {
             </ScrollStackItem>
 
             <ScrollStackItem itemClassName="scroll-stack-card-demo ssc-demo-5">
-              <h3>All on React Bits!</h3>
+              <h3>All on KauryUI!</h3>
             </ScrollStackItem>
           </ScrollStack>
         </Box>

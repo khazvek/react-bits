@@ -97,7 +97,7 @@ const FallingTextDemo = () => {
         <Flex position="relative" className="demo-container" h={400} overflow="hidden" justifyContent="center" alignItems="center" p={0}>
           <FallingText
             key={key}
-            text={`React Bits is a library of animated and interactive React components designed to streamline UI development and simplify your workflow.`}
+            text={`KauryUI is a library of animated and interactive React components designed to streamline UI development and simplify your workflow.`}
             highlightWords={["React", "Bits", "animated", "components", "simplify"]}
             highlightClass="highlighted"
             trigger={trigger}
@@ -106,7 +106,7 @@ const FallingTextDemo = () => {
             mouseConstraintStiffness={mouseConstraintStiffness}
           />
 
-          <Text color="#271E37" fontSize='4rem' fontWeight={900} position="absolute" zIndex={0} userSelect="none">
+          <Text color="#333333" fontSize='4rem' fontWeight={900} position="absolute" zIndex={0} userSelect="none">
             {trigger === "hover" ? "Hover Me" : trigger === "click" ? "Click Me" : "Auto Start"}
           </Text>
         </Flex>
