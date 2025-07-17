@@ -92,7 +92,7 @@ const ClickSparkDemo = () => {
             extraScale={extraScale}
           />
 
-          <Text position='absolute' fontWeight={900} fontSize='2rem' textAlign='center' color='#271E37' userSelect='none'>Click Around!</Text>
+          <Text position='absolute' fontWeight={900} fontSize='2rem' textAlign='center' color='#333333' userSelect='none'>Click Around!</Text>
         </Box>
 
         <Customize>

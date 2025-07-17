@@ -50,7 +50,7 @@ const ImageTrailDemo = () => {
           />
 
           <Flex position="absolute" justifyContent="center" flexDirection="column" alignItems="center">
-            <Text fontSize="clamp(2rem, 6vw, 6rem)" fontWeight={900} color='#271E37' mb={0}>
+            <Text fontSize="clamp(2rem, 6vw, 6rem)" fontWeight={900} color='#333333' mb={0}>
               Hover Me.
             </Text>
             <Text fontSize="18px" fontWeight={900} color='#a6a6a6' mt={0}>
@@ -66,9 +66,9 @@ const ImageTrailDemo = () => {
               <Button
                 fontSize="xs"
                 disabled
-                border="1px solid #271E37"
+                border="1px solid #333333"
                 h={8}
-                _disabled={{ bg: '#271E37', border: "1px solid #271E37", color: '#fff', cursor: 'not-allowed', _hover: { bg: '#222' } }}
+                _disabled={{ bg: '#333333', border: "1px solid #333333", color: '#fff', cursor: 'not-allowed', _hover: { bg: '#222' } }}
               >
                 Variant
               </Button>
@@ -78,9 +78,9 @@ const ImageTrailDemo = () => {
                 return (
                   <Button
                     key={num}
-                    bg={isActive ? '#5227FF' : '#0D0716'}
-                    border="1px solid #271E37"
-                    _hover={{ backgroundColor: isActive ? '#5227FF' : '#0D0716' }}
+                    bg={isActive ? '#FFFFFF' : '#0D0716'}
+                    border="1px solid #333333"
+                    _hover={{ backgroundColor: isActive ? '#FFFFFF' : '#0D0716' }}
                     color="#fff"
                     fontSize="xs"
                     h={8}

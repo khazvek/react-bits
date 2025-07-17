@@ -82,7 +82,7 @@ const CubesDemo = () => {
     {
       name: "faceColor",
       type: "string",
-      default: "'#060010'",
+      default: "'#000000'",
       description: "Background color for cube faces"
     },
     {

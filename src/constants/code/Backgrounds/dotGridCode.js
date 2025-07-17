@@ -15,8 +15,8 @@ export const dotGrid = {
   <DotGrid
     dotSize={10}
     gap={15}
-    baseColor="#5227FF"
-    activeColor="#5227FF"
+    baseColor="#FFFFFF"
+    activeColor="#FFFFFF"
     proximity={120}
     shockRadius={250}
     shockStrength={5}

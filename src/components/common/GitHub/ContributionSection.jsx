@@ -23,8 +23,8 @@ const ContributionSection = () => {
           fontSize="xs"
           bg="#170D27"
           borderRadius="10px"
-          border="1px solid #271E37"
-          _hover={{ bg: "#271E37" }}
+          border="1px solid #333333"
+          _hover={{ bg: "#333333" }}
           color="#fff"
           h={10}
           w={{ base: '90%', md: 'auto' }}
@@ -44,8 +44,8 @@ const ContributionSection = () => {
           fontSize="xs"
           bg="#170D27"
           borderRadius="10px"
-          border="1px solid #271E37"
-          _hover={{ bg: "#271E37" }}
+          border="1px solid #333333"
+          _hover={{ bg: "#333333" }}
           color="#fff"
           h={10}
           w={{ base: '90%', md: 'auto' }}

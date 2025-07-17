@@ -17,7 +17,7 @@ import { aurora } from "../../constants/code/Backgrounds/auroraCode";
 const AuroraDemo = () => {
   const [color1, setColor1] = useState('#7cff67');
   const [color2, setColor2] = useState('#B19EEF');
-  const [color3, setColor3] = useState('#5227FF');
+  const [color3, setColor3] = useState('#FFFFFF');
 
   const [speed, setSpeed] = useState(1);
   const [blend, setBlend] = useState(0.5);

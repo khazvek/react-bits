@@ -1,6 +1,6 @@
 .sidebar,
 .sidebar-mobile {
-  background-color: #060010 !important;
+  background-color: #000000 !important;
 }
 
 .sidebar::before {
@@ -11,7 +11,7 @@
   width: 100%;
   height: 200px;
   pointer-events: none;
-  background: linear-gradient(to top, #060010, transparent);
+  background: linear-gradient(to top, #000000, transparent);
   z-index: 4;
   transition: opacity 0.3s ease;
 }
@@ -33,12 +33,12 @@
 }
 
 .sidebar::-webkit-scrollbar-thumb {
-  background: #060010;
+  background: #000000;
   border-radius: 50px;
 }
 
 .sidebar::-webkit-scrollbar-thumb:hover {
-  background: #271E37;
+  background: #333333;
 }
 
 .sidebar-logo {
@@ -91,7 +91,7 @@
 
 .sidebar-item .new-tag {
   color: #fff;
-  border: 1px solid #5227FF;
+  border: 1px solid #FFFFFF;
   background-color: rgba(82, 39, 255, 0.3);
 }
 
@@ -112,7 +112,7 @@
 
 .github-button:hover {
   border-color: #ffffff1c;
-  background-color: #060010 !important;
+  background-color: #000000 !important;
   color: #fff;
 }
 
@@ -145,7 +145,7 @@
 }
 
 .cta-button-docs span {
-  background-color: #060010;
+  background-color: #000000;
   margin-left: 1em;
   margin-right: calc(1em - 6px);
   padding-top: .1em;

@@ -15,7 +15,7 @@
 
 .rotating-text-main {
   padding: 0.125rem 0.5rem;
-  background-color: #5227FF;
+  background-color: #FFFFFF;
   color: #fff;
   overflow: hidden;
   display: flex;
@@ -78,7 +78,7 @@
   transform: translateX(-50%);
   z-index: 1000;
   border-radius: 10px;
-  background-color: #5227FF;
+  background-color: #FFFFFF;
   color: white;
   padding: 16px;
   display: flex;

@@ -106,7 +106,7 @@ const GradientTextDemo = () => {
               marginLeft="calc(2rem + 24px)"
               h="12px"
               borderRadius="md"
-              border="1px solid #271E37"
+              border="1px solid #333333"
             />
           </Flex>
         </Customize>

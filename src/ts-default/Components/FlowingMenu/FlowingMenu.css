@@ -36,7 +36,7 @@
 }
 
 .menu__item-link:hover {
-  color: #060010;
+  color: #000000;
 }
 
 .menu__item-link:focus:not(:focus-visible) {
@@ -74,7 +74,7 @@
 }
 
 .marquee span {
-  color: #060010;
+  color: #000000;
   white-space: nowrap;
   text-transform: uppercase;
   font-weight: 400;

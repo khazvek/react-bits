@@ -108,14 +108,14 @@ const RollingGallery = ({
         className="absolute top-0 left-0 h-full w-[48px] z-10"
         style={{
           background:
-            "linear-gradient(to left, rgba(0,0,0,0) 0%, #060010 100%)",
+            "linear-gradient(to left, rgba(0,0,0,0) 0%, #000000 100%)",
         }}
       />
       <div
         className="absolute top-0 right-0 h-full w-[48px] z-10"
         style={{
           background:
-            "linear-gradient(to right, rgba(0,0,0,0) 0%, #060010 100%)",
+            "linear-gradient(to right, rgba(0,0,0,0) 0%, #000000 100%)",
         }}
       />
 

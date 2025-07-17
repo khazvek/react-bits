@@ -106,7 +106,7 @@ const FallingTextDemo = () => {
             mouseConstraintStiffness={mouseConstraintStiffness}
           />
 
-          <Text color="#271E37" fontSize='4rem' fontWeight={900} position="absolute" zIndex={0} userSelect="none">
+          <Text color="#333333" fontSize='4rem' fontWeight={900} position="absolute" zIndex={0} userSelect="none">
             {trigger === "hover" ? "Hover Me" : trigger === "click" ? "Click Me" : "Auto Start"}
           </Text>
         </Flex>

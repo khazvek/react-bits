@@ -111,8 +111,8 @@ const GlareHoverDemo = () => {
       <PreviewTab>
         <Box position="relative" className="demo-container" h={600} overflow="hidden">
           <GlareHover
-            background="#060010"
-            borderColor="#271E37"
+            background="#000000"
+            borderColor="#333333"
             borderRadius="20px"
             width="400px"
             height="300px"
@@ -122,7 +122,7 @@ const GlareHoverDemo = () => {
             transitionDuration={transitionDuration}
             playOnce={playOnce}
           >
-            <Text textAlign="center" fontSize='3rem' fontWeight="900" color="#271E37" m={0}>Hover Me</Text>
+            <Text textAlign="center" fontSize='3rem' fontWeight="900" color="#333333" m={0}>Hover Me</Text>
           </GlareHover>
         </Box>
 
