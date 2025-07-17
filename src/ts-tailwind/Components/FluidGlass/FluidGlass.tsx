@@ -386,7 +386,7 @@ function Typography() {
       anchorX="center"
       anchorY="middle"
     >
-      React Bits
+      KauryUI
     </Text>
   );
 }

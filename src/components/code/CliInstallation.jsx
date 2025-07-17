@@ -41,7 +41,7 @@ const CliInstallation = ({
         Full CLI Setup
       </Text>
       <Text className="jsrepo-info" mb={4} mt={4} color="#a1a1aa" fontSize="sm">
-        React Bits uses{" "}
+        KauryUI uses{" "}
         <a href="https://jsrepo.dev/" target="_blank" rel="noreferrer">
           jsrepo
         </a>{" "}
@@ -77,7 +77,7 @@ const CliInstallation = ({
                 <Text className="demo-extra-info">{label}</Text>
                 <CodeHighlighter
                   language="bash"
-                  codeString={`npx jsrepo init https://reactbits.dev/${path}`}
+                  codeString={`npx jsrepo init https://kauryui.dev/${path}`}
                 />
               </Box>
             ))}

@@ -11,7 +11,7 @@ export const textPressure = {
 
 // Note:
 // Make sure the font you're using supports all the variable properties. 
-// React Bits does not take responsibility for the fonts used
+// KauryUI does not take responsibility for the fonts used
 
 <div style={{position: 'relative', height: '300px'}}>
   <TextPressure

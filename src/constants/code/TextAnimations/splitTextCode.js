@@ -1,4 +1,4 @@
-// Fun fact: this is the first component ever made for React Bits!
+// Fun fact: this is the first component ever made for KauryUI!
 
 import { generateCliCommands } from '@/utils/utils';
 

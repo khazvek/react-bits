@@ -22,7 +22,7 @@ const LandingPage = () => {
 
   return (
     <section className="landing-wrapper">
-      <title>React Bits - Animated UI Components For React</title>
+      <title>KauryUI - Animated UI Components For React</title>
 
       <Announcement />
 

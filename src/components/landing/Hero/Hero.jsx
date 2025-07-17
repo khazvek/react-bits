@@ -84,7 +84,7 @@ const Hero = () => {
           <div
             className="hero-card hero-card-1"
             onClick={() =>
-              window.open("https://reactbits.dev/backgrounds/dot-grid")
+              window.open("https://kauryui.dev/backgrounds/dot-grid")
             }
           >
             <Box w="100%" h="100%" position="relative" className="hero-dot-grid">
@@ -102,7 +102,7 @@ const Hero = () => {
             <div
               className="hero-card hero-card-2"
               onClick={() =>
-                window.open("https://reactbits.dev/backgrounds/letter-glitch")
+                window.open("https://kauryui.dev/backgrounds/letter-glitch")
               }
             >
               <LetterGlitch
@@ -114,7 +114,7 @@ const Hero = () => {
             <div
               className="hero-card hero-card-3"
               onClick={() =>
-                window.open("https://reactbits.dev/backgrounds/squares")
+                window.open("https://kauryui.dev/backgrounds/squares")
               }
             >
               <Squares
