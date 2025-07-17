@@ -4,7 +4,7 @@
     <picture>
       <source media="(prefers-color-scheme: light)" srcset="src/assets/logos/reactbits-gh-black.svg">
       <source media="(prefers-color-scheme: dark)" srcset="src/assets/logos/reactbits-gh-white.svg">
-      <img src="src/assets/logos/reactbits-gh-black.svg" alt="react-bits logo" width="1000">
+      <img src="src/assets/logos/reactbits-gh-black.svg" alt="kauryui logo" width="1000">
     </picture>
 	<br>
 	<br>
@@ -24,11 +24,11 @@
 
 ## Documentation
 
-Go to [reactbits.dev](https://reactbits.dev/) to view the documentation.
+Go to [kauryui.dev](https://kauryui.dev/) to view the documentation.
 
 ## About
 
-React Bits is a large collection of animated React components made to spice up your web creations. We've got animations, components, backgrounds, and awesome stuff that you won't be able to find anywhere else - all free for you to use! These components are all enhanced with customization options as props, to make it easy for you to get exactly what you need.
+KauryUI is a large collection of animated React components made to spice up your web creations. We've got animations, components, backgrounds, and awesome stuff that you won't be able to find anywhere else - all free for you to use! These components are all enhanced with customization options as props, to make it easy for you to get exactly what you need.
 
 ## Key Features
 - 90+ total components (text animations, animations, components, backgrounds), growing every week
@@ -41,8 +41,8 @@ React Bits is a large collection of animated React components made to spice up y
   - TS + Tailwind CSS
 
 ## CLI (<a href="https://jsrepo.dev"><img src="https://jsrepo.dev/badges/jsrepo.svg" width="50" alt="jsrepo"></a>)
-React Bits uses [jsrepo](https://jsrepo.dev) for installing components via CLI. </br>
-The setup steps can be found on each component's page in the [documentation](https://reactbits.dev/).
+KauryUI uses [jsrepo](https://jsrepo.dev) for installing components via CLI. </br>
+The setup steps can be found on each component's page in the [documentation](https://kauryui.dev/).
 
 ## How To Contribute?
 
@@ -66,7 +66,7 @@ Please review the [Contribution Guide](https://github.com/DavidHDev/react-bits/b
 You can help support the project by using the Sponsor button on the page - please note that any donations received will go strictly towards paying hosting costs, nothing else.
 
 ## Credit
-React Bits may sometimes take inspiration from publicly available code examples online. These examples are rewritten as full-fledged, customizable, and reusable components for JS, TS, CSS, and Tailwind codebases. If you recognize your work here, just request credit and it will be granted.
+KauryUI may sometimes take inspiration from publicly available code examples online. These examples are rewritten as full-fledged, customizable, and reusable components for JS, TS, CSS, and Tailwind codebases. If you recognize your work here, just request credit and it will be granted.
 
 ## License
 

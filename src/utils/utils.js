@@ -52,7 +52,7 @@ export const generateCliCommands = (path, variants = ['default', 'tailwind', 'ts
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
         .join('')}`;
 
-      return [formattedKey, `npx jsrepo add https://reactbits.dev/${variant}/${category}/${component}`];
+      return [formattedKey, `npx jsrepo add https://kauryui.dev/${variant}/${category}/${component}`];
     })
   );
 };

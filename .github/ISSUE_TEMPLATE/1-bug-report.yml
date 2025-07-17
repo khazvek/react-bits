@@ -1,12 +1,12 @@
 name: 🐞 Bug report
-description: Help improve React Bits.
+description: Help improve KauryUI.
 labels: ["bug"]
 title: "[BUG]: "
 body:
     - type: markdown
       attributes:
           value: |
-              ## Thanks for trying to improve React Bits!
+              ## Thanks for trying to improve KauryUI!
               Before continuing make sure you have checked other issues to see if your issue has already been reported / addressed.
     - type: textarea
       id: desc

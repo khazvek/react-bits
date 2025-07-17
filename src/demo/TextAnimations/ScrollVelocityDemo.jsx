@@ -101,7 +101,7 @@ const ScrollVelocityDemo = () => {
           overflow={"hidden"}
         >
           <Flex position="relative" justifyContent="center" alignItems="center">
-            <ScrollVelocity texts={['React Bits', 'Scroll Down']} velocity={velocity} className="custom-scroll-text" />
+            <ScrollVelocity texts={['KauryUI', 'Scroll Down']} velocity={velocity} className="custom-scroll-text" />
           </Flex>
         </Box>
 

@@ -209,7 +209,7 @@ const Sidebar = () => {
           gap="1em"
         >
           <Link to="/">
-            <Image src={Logo} h="32px" alt="React Bits logo" />
+            <Image src={Logo} h="32px" alt="KauryUI logo" />
           </Link>
 
           <Flex gap={2}>

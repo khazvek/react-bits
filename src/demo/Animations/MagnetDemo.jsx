@@ -104,7 +104,7 @@ const MagnetDemo = () => {
           >
             <a href="https://github.com/DavidHDev/react-bits" target="_blank" rel="noreferrer">
               <Flex fontSize="lg" color="#fff">
-                Star&nbsp;<Text color="#5227FF">React Bits</Text>&nbsp;on GitHub!
+                Star&nbsp;<Text color="#5227FF">KauryUI</Text>&nbsp;on GitHub!
               </Flex>
             </a>
           </Magnet>

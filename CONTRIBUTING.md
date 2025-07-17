@@ -1,6 +1,6 @@
-# Contributing to React Bits
+# Contributing to KauryUI
 
-Thank you for considering contributing to React Bits! I appreciate your interest in making this project better.
+Thank you for considering contributing to KauryUI! I appreciate your interest in making this project better.
 
 To ensure a smooth collaboration, please read the following guidelines before getting started.
 

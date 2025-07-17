@@ -26,7 +26,7 @@ const CategoryPage = () => {
 
   return (
     <Box className={`category-page ${isLoading ? 'loading' : ''}`} ref={scrollRef}>
-      <title>{`React Bits - ${decodedLabel}`}</title>
+      <title>{`KauryUI - ${decodedLabel}`}</title>
 
       <Box className="page-transition-fade" style={{ opacity }}>
         <h2 className='sub-category'>{decodedLabel}</h2>

@@ -5,7 +5,7 @@ const Announcement = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
-  const announcementMessage = "🎉 Vue Bits, the official Vue port of React Bits, is here! Go to [vue-bits.dev](https://vue-bits.dev/) and check it out!";
+  const announcementMessage = "🎉 Vue Bits, the official Vue port of KauryUI, is here! Go to [vue-bits.dev](https://vue-bits.dev/) and check it out!";
 
   const STORAGE_KEYS = {
     lastMessage: 'announcement-last-message',
@@ -105,14 +105,14 @@ const Announcement = () => {
           const file = new File([blob], 'vue-bits.jpg', { type: 'image/jpeg' });
 
           await navigator.share({
-            title: 'Vue Bits - Official Vue Port of React Bits',
+            title: 'Vue Bits - Official Vue Port of KauryUI',
             text: shareText,
             files: [file]
           });
         } catch (error) {
           try {
             await navigator.share({
-              title: 'Vue Bits - Official Vue Port of React Bits',
+              title: 'Vue Bits - Official Vue Port of KauryUI',
               text: shareText,
               url: window.location.origin
             });
