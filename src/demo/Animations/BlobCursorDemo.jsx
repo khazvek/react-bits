@@ -15,7 +15,7 @@ import BlobCursor from "../../ts-tailwind/Animations/BlobCursor/BlobCursor";
 
 const BlobCursorDemo = () => {
   const [blobType, setBlobType] = useState('circle');
-  const [fillColor, setFillColor] = useState('#5227FF');
+  const [fillColor, setFillColor] = useState('#FFFFFF');
   const [trailCount, setTrailCount] = useState(3);
   const [sizes, setSizes] = useState([60, 125, 75]);
   const [innerSizes, setInnerSizes] = useState([20, 35, 25]);
@@ -31,7 +31,7 @@ const BlobCursorDemo = () => {
 
   const propData = [
     { name: "blobType", type: "'circle' | 'square'", default: "'circle'", description: "Shape of the blobs." },
-    { name: "fillColor", type: "string", default: "'#5227FF'", description: "Background color of each blob." },
+    { name: "fillColor", type: "string", default: "'#FFFFFF'", description: "Background color of each blob." },
     { name: "trailCount", type: "number", default: "3", description: "How many trailing blobs." },
     { name: "sizes", type: "number[]", default: "[60, 125, 75]", description: "Sizes (px) of each blob. Length must be ≥ trailCount." },
     { name: "innerSizes", type: "number[]", default: "[20, 35, 25]", description: "Sizes (px) of inner dots. Length must be ≥ trailCount." },
@@ -87,8 +87,8 @@ const BlobCursorDemo = () => {
             fontSize="xs"
             bg="#170D27"
             borderRadius="10px"
-            border="1px solid #271E37"
-            _hover={{ bg: "#271E37" }}
+            border="1px solid #333333"
+            _hover={{ bg: "#333333" }}
             color="#fff"
             h={8}
             onClick={() => setBlobType(blobType === 'circle' ? 'square' : 'circle')}

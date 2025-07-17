@@ -16,8 +16,8 @@ import DotGrid from "../../content/Backgrounds/DotGrid/DotGrid";
 const DotGridDemo = () => {
   const [dotSize, setDotSize] = useState(5);
   const [gap, setGap] = useState(15);
-  const [baseColor, setBaseColor] = useState("#271E37");
-  const [activeColor, setActiveColor] = useState("#5227FF");
+  const [baseColor, setBaseColor] = useState("#333333");
+  const [activeColor, setActiveColor] = useState("#FFFFFF");
   const [proximity, setProximity] = useState(120);
   const [shockRadius, setShockRadius] = useState(250);
   const [shockStrength, setShockStrength] = useState(5);
@@ -40,13 +40,13 @@ const DotGridDemo = () => {
     {
       name: "baseColor",
       type: "string",
-      default: "'#5227FF'",
+      default: "'#FFFFFF'",
       description: "Base color of the dots."
     },
     {
       name: "activeColor",
       type: "string",
-      default: "'#5227FF'",
+      default: "'#FFFFFF'",
       description: "Color of dots when hovered or activated."
     },
     {

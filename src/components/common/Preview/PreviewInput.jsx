@@ -19,8 +19,8 @@ const PreviewInput = ({
       <Field.Root width="auto">
         <Input
           borderRadius="10px"
-          bg="#060010"
-          border="1px solid #392e4e"
+          bg="#000000"
+          border="1px solid #555555"
           h={9}
           w={`${width}px`}
           maxLength={maxLength}

@@ -208,8 +208,8 @@ const SearchDialog = ({ isOpen, onClose }) => {
       <Dialog.Backdrop bg="rgba(0,0,0,0.9)" />
       <Dialog.Positioner placement="top">
         <Dialog.Content
-          bg="#060010"
-          border="1px solid #392e4e"
+          bg="#000000"
+          border="1px solid #555555"
           rounded="xl"
           mx={4}
           w="full"
@@ -223,13 +223,13 @@ const SearchDialog = ({ isOpen, onClose }) => {
                 onChange={(e) => setInputValue(e.target.value)}
                 placeholder="Search the docs"
                 variant="filled"
-                bg="#060010"
+                bg="#000000"
                 fontSize="lg"
                 borderRadius="md"
                 color="white"
-                _focus={{ bg: "#060010", borderColor: "transparent" }}
-                _hover={{ bg: "#060010" }}
-                _placeholder={{ color: "#271E37" }}
+                _focus={{ bg: "#000000", borderColor: "transparent" }}
+                _hover={{ bg: "#000000" }}
+                _placeholder={{ color: "#333333" }}
               />
             </InputGroup>
 
@@ -245,7 +245,7 @@ const SearchDialog = ({ isOpen, onClose }) => {
                 >
                   <Box
                     mt={3}
-                    borderTop="1px solid #392e4e"
+                    borderTop="1px solid #555555"
                     position="relative"
                   >
                     <Box
@@ -255,13 +255,13 @@ const SearchDialog = ({ isOpen, onClose }) => {
                       onScroll={handleScroll}
                       sx={{
                         "&::-webkit-scrollbar": { width: "8px" },
-                        "&::-webkit-scrollbar-track": { bg: "#060010" },
+                        "&::-webkit-scrollbar-track": { bg: "#000000" },
                         "&::-webkit-scrollbar-thumb": {
-                          bg: "#271E37",
+                          bg: "#333333",
                           rounded: "4px",
                         },
                         scrollbarWidth: "thin",
-                        scrollbarColor: "#271E37 #060010",
+                        scrollbarColor: "#333333 #000000",
                       }}
                     >
                       {results.length > 0 ? (
@@ -282,7 +282,7 @@ const SearchDialog = ({ isOpen, onClose }) => {
                                 mr=".6em"
                                 mb={2}
                                 p="1em"
-                                bg={selected ? "#392e4e" : "#271E37"}
+                                bg={selected ? "#555555" : "#333333"}
                                 rounded="xl"
                                 display="flex"
                                 alignItems="center"
@@ -324,7 +324,7 @@ const SearchDialog = ({ isOpen, onClose }) => {
                       left={0}
                       right={0}
                       h="50px"
-                      bg="linear-gradient(to bottom, #060010, transparent)"
+                      bg="linear-gradient(to bottom, #000000, transparent)"
                       pointerEvents="none"
                       style={{
                         transition: "opacity 0.3s",
@@ -337,7 +337,7 @@ const SearchDialog = ({ isOpen, onClose }) => {
                       left={0}
                       right={0}
                       h="100px"
-                      bg="linear-gradient(to top, #060010, transparent)"
+                      bg="linear-gradient(to top, #000000, transparent)"
                       pointerEvents="none"
                       style={{
                         transition: "opacity 0.3s",

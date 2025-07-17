@@ -14,7 +14,7 @@ import { squares } from '../../constants/code/Backgrounds/squaresCode';
 
 const SquaresDemo = () => {
   const [direction, setDirection] = useState('diagonal');
-  const [borderColor, setBorderColor] = useState('#271E37');
+  const [borderColor, setBorderColor] = useState('#333333');
   const [hoverColor, setHoverColor] = useState('#222222');
   const [size, setSize] = useState(40);
   const [speed, setSpeed] = useState(0.5);
@@ -52,8 +52,8 @@ const SquaresDemo = () => {
               Direction
             </Text>
             <Button
-              bg={direction === 'diagonal' ? '#5227FF' : '#170D27'}
-              _hover={{ backgroundColor: `${direction === "diagonal" ? '#5227FF' : '#170D27'}` }}
+              bg={direction === 'diagonal' ? '#FFFFFF' : '#170D27'}
+              _hover={{ backgroundColor: `${direction === "diagonal" ? '#FFFFFF' : '#170D27'}` }}
               color='white'
               fontSize="xs"
               h={8}
@@ -64,8 +64,8 @@ const SquaresDemo = () => {
               Diagonal
             </Button>
             <Button
-              bg={direction === 'up' ? '#5227FF' : '#170D27'}
-              _hover={{ backgroundColor: `${direction === "up" ? '#5227FF' : '#170D27'}` }}
+              bg={direction === 'up' ? '#FFFFFF' : '#170D27'}
+              _hover={{ backgroundColor: `${direction === "up" ? '#FFFFFF' : '#170D27'}` }}
               color='white'
               fontSize="xs"
               h={8}
@@ -76,8 +76,8 @@ const SquaresDemo = () => {
               Up
             </Button>
             <Button
-              bg={direction === 'right' ? '#5227FF' : '#170D27'}
-              _hover={{ backgroundColor: `${direction === "right" ? '#5227FF' : '#170D27'}` }}
+              bg={direction === 'right' ? '#FFFFFF' : '#170D27'}
+              _hover={{ backgroundColor: `${direction === "right" ? '#FFFFFF' : '#170D27'}` }}
               color='white'
               fontSize="xs"
               h={8}
@@ -88,8 +88,8 @@ const SquaresDemo = () => {
               Right
             </Button>
             <Button
-              bg={direction === 'down' ? '#5227FF' : '#170D27'}
-              _hover={{ backgroundColor: `${direction === "down" ? '#5227FF' : '#170D27'}` }}
+              bg={direction === 'down' ? '#FFFFFF' : '#170D27'}
+              _hover={{ backgroundColor: `${direction === "down" ? '#FFFFFF' : '#170D27'}` }}
               color='white'
               fontSize="xs"
               h={8}
@@ -100,8 +100,8 @@ const SquaresDemo = () => {
               Down
             </Button>
             <Button
-              bg={direction === 'left' ? '#5227FF' : '#170D27'}
-              _hover={{ backgroundColor: `${direction === "left" ? '#5227FF' : '#170D27'}` }}
+              bg={direction === 'left' ? '#FFFFFF' : '#170D27'}
+              _hover={{ backgroundColor: `${direction === "left" ? '#FFFFFF' : '#170D27'}` }}
               color='white'
               fontSize="xs"
               h={8}

@@ -57,8 +57,8 @@ const NoiseDemo = () => {
   return (
     <TabbedLayout>
       <PreviewTab>
-        <Box position="relative" className="demo-container" background='#060010' minH={400} overflow="hidden">
-          <Text color="#271E37" fontSize="6rem" fontWeight={900} textAlign={'center'}>
+        <Box position="relative" className="demo-container" background='#000000' minH={400} overflow="hidden">
+          <Text color="#333333" fontSize="6rem" fontWeight={900} textAlign={'center'}>
             Ooh, edgy!
           </Text>
           <Noise

@@ -16,7 +16,7 @@ import RippleGrid from "../../content/Backgrounds/RippleGrid/RippleGrid";
 
 const RippleGridDemo = () => {
   const [enableRainbow, setEnableRainbow] = useState(false);
-  const [gridColor, setGridColor] = useState("#5227FF");
+  const [gridColor, setGridColor] = useState("#FFFFFF");
   const [rippleIntensity, setRippleIntensity] = useState(0.05);
   const [gridSize, setGridSize] = useState(10.0);
   const [gridThickness, setGridThickness] = useState(15.0);

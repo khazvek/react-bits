@@ -37,7 +37,7 @@ const Cubes: React.FC<CubesProps> = ({
   duration = { enter: 0.3, leave: 0.6 },
   cellGap,
   borderStyle = "1px solid #fff",
-  faceColor = "#060010",
+  faceColor = "#000000",
   shadow = false,
   autoAnimate = true,
   rippleOnClick = true,

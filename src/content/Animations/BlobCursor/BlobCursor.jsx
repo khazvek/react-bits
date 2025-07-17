@@ -6,7 +6,7 @@ import "./BlobCursor.css";
 
 export default function BlobCursor({
   blobType = "circle",
-  fillColor = "#5227FF",
+  fillColor = "#FFFFFF",
   trailCount = 3,
   sizes = [60, 125, 75],
   innerSizes = [20, 35, 25],

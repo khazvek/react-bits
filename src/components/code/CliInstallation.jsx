@@ -51,8 +51,8 @@ const CliInstallation = ({
       <Accordion.Root type="single" collapsible defaultValue="setup">
         <Accordion.Item
           value="setup"
-          bg="#060010"
-          border="1px solid #392e4e"
+          bg="#000000"
+          border="1px solid #555555"
           borderRadius="20px"
         >
           <Accordion.ItemTrigger pb={4} px={6}>
@@ -82,7 +82,7 @@ const CliInstallation = ({
               </Box>
             ))}
 
-            <Separator my={8} borderWidth='1px' borderColor="#392e4e" />
+            <Separator my={8} borderWidth='1px' borderColor="#555555" />
 
             <Text className="demo-extra-info">
               2. Browse &amp; add components from the list

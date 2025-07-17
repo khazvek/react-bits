@@ -70,8 +70,8 @@ const SplitTextDemo = () => {
               fontSize="xs"
               bg="#170D27"
               borderRadius="10px"
-              border="1px solid #271E37"
-              _hover={{ bg: "#271E37" }}
+              border="1px solid #333333"
+              _hover={{ bg: "#333333" }}
               color="#fff"
               h={8}
               onClick={() => {
@@ -91,8 +91,8 @@ const SplitTextDemo = () => {
               fontSize="xs"
               bg="#170D27"
               borderRadius="10px"
-              border="1px solid #271E37"
-              _hover={{ bg: "#271E37" }}
+              border="1px solid #333333"
+              _hover={{ bg: "#333333" }}
               color="#fff"
               h={8}
               onClick={() => {

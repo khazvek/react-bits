@@ -20,7 +20,7 @@ import Cubes from './Cubes'
     gridSize={8}
     maxAngle={60}
     radius={4}
-    borderStyle="2px dashed #5227FF"
+    borderStyle="2px dashed #FFFFFF"
     faceColor="#1a1a2e"
     rippleColor="#ff6b6b"
     rippleSpeed={1.5}

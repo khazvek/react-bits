@@ -31,7 +31,7 @@
 
 .inner-content {
   position: relative;
-  background: linear-gradient(to bottom, #060010, #111);
+  background: linear-gradient(to bottom, #000000, #111);
   border: 1px solid #222;
   color: white;
   font-size: 16px;

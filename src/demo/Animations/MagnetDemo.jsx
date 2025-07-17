@@ -84,7 +84,7 @@ const MagnetDemo = () => {
               fontSize="xl"
               fontWeight="bolder"
               color="#fff"
-              bg="#060010"
+              bg="#000000"
               border='1px solid #222'
               borderRadius="20px"
               justifyContent="center"
@@ -104,7 +104,8 @@ const MagnetDemo = () => {
           >
             <a href="https://github.com/DavidHDev/react-bits" target="_blank" rel="noreferrer">
               <Flex fontSize="lg" color="#fff">
-                Star&nbsp;<Text color="#5227FF">KauryUI</Text>&nbsp;on GitHub!
+
+               
               </Flex>
             </a>
           </Magnet>

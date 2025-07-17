@@ -179,7 +179,7 @@ const DecryptedTextDemo = () => {
             />
           </Flex>
 
-          <Separator borderColor="#271E37" my={4} />
+          <Separator borderColor="#333333" my={4} />
 
           <Flex wrap="wrap" direction="column" gap={4}>
             <PreviewSelect
@@ -207,7 +207,7 @@ const DecryptedTextDemo = () => {
             />
           </Flex>
 
-          <Separator borderColor="#271E37" my={4} />
+          <Separator borderColor="#333333" my={4} />
 
           <Flex wrap="wrap" direction="column" gap={4} mb={4}>
             <PreviewSlider

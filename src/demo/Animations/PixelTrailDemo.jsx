@@ -25,7 +25,7 @@ const PixelTrailDemo = () => {
   const [trailSize, setTrailSize] = useState(0.1);
   const [maxAge, setMaxAge] = useState(250);
   const [interpolate, setInterpolate] = useState(5);
-  const [color, setColor] = useState("#5227FF");
+  const [color, setColor] = useState("#FFFFFF");
   const [gooeyEnabled, setGooeyEnabled] = useState(true);
   const [gooStrength, setGooStrength] = useState(2);
 
@@ -58,7 +58,7 @@ const PixelTrailDemo = () => {
             position="absolute"
             zIndex={0}
             fontSize="clamp(2rem, 6vw, 6rem)"
-            color="#271E37"
+            color="#333333"
             fontWeight={900}
           >
             Move Cursor.

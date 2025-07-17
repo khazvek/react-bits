@@ -101,7 +101,7 @@ const SplashCursorDemo = () => {
       <TabbedLayout>
         <PreviewTab>
           <Flex overflow="hidden" justifyContent="center" flexDirection={'column'} minH={300} p={0} alignItems="center" className="demo-container" position={'relative'} zIndex={10}>
-            <Text fontSize={'3rem'} textAlign="center" color="#271E37" fontWeight={900} userSelect={'none'}>Move Your Cursor</Text>
+            <Text fontSize={'3rem'} textAlign="center" color="#333333" fontWeight={900} userSelect={'none'}>Move Your Cursor</Text>
           </Flex>
 
           <PropTable data={propData} />

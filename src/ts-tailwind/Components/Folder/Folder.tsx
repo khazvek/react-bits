@@ -29,7 +29,7 @@ const darkenColor = (hex: string, percent: number): string => {
 };
 
 const Folder: React.FC<FolderProps> = ({
-  color = "#5227FF",
+  color = "#FFFFFF",
   size = 1,
   items = [],
   className = "",

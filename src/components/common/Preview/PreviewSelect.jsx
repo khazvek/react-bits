@@ -48,8 +48,8 @@ const PreviewSelect = ({
               fontSize="14px"
               h={8}
               w={`${width}px`}
-              bg="#060010"
-              border="1px solid #392e4e"
+              bg="#000000"
+              border="1px solid #555555"
               borderRadius="10px"
             >
               <Select.ValueText fontSize="14px">
@@ -64,8 +64,8 @@ const PreviewSelect = ({
           <Portal>
             <Select.Positioner>
               <Select.Content
-                bg="#060010"
-                border="1px solid #392e4e"
+                bg="#000000"
+                border="1px solid #555555"
                 borderRadius="10px"
               >
                 {collection.items.map((val) => (
@@ -75,7 +75,7 @@ const PreviewSelect = ({
                     fontSize="14px"
                     borderRadius="10px"
                     cursor="pointer"
-                    _highlighted={{ bg: "#271E37" }}
+                    _highlighted={{ bg: "#333333" }}
                   >
                     <Select.ItemText>{labelMap[val]}</Select.ItemText>
                     <Select.ItemIndicator />

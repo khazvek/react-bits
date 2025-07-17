@@ -119,14 +119,14 @@ const TextPressureDemo = () => {
   const [weight, setWeight] = useState(true);
   const [italic, setItalic] = useState(true);
   const [textColor, setTextColor] = useState('#ffffff');
-  const [strokeColor, setStrokeColor] = useState('#5227FF');
+  const [strokeColor, setStrokeColor] = useState('#FFFFFF');
 
   const [key, forceRerender] = useForceRerender();
 
   return (
     <TabbedLayout>
       <PreviewTab>
-        <Box position="relative" className="demo-container" bg='#060010' minH={400} maxH={450} overflow="hidden" mb={6}>
+        <Box position="relative" className="demo-container" bg='#000000' minH={400} maxH={450} overflow="hidden" mb={6}>
           <RefreshButton onClick={forceRerender} />
           <Box w="100%" h="100%">
             <TextPressure
